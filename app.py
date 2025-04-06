@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Gemini API setup
-genai.configure(api_key="AIzaSyC7KFA5zdbJkg05KCnFbmxKLIwwc33-9yw")  # Replace with your real API key
+genai.configure(api_key="YOUR_API_KEY_HERE")  # Replace with your real API key
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Dark-themed HTML frontend
